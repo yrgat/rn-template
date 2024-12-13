@@ -7,7 +7,7 @@ import {
 export default function HomeScreen() {
   return (
     <SafeAreaView>
-      <Text>Home</Text>
+      <Text className="text-2xl text-black ">Home</Text>
     </SafeAreaView>
   );
 }
