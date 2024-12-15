@@ -24,12 +24,10 @@ import star from "@/assets/icons/star.png";
 import target from "@/assets/icons/target.png";
 import to from "@/assets/icons/to.png";
 import check from "@/assets/images/check.png";
-import getStarted from "@/assets/images/get-started.png";
 import message from "@/assets/images/message.png";
 import noResult from "@/assets/images/no-result.png";
 
 export const images = {
-  getStarted,
   check,
   noResult,
   message
@@ -62,3 +60,8 @@ export const icons = {
   target,
   to
 };
+
+export const swiper_test_data = [
+  { title: "SwipePage-1", description: "This is page 1" },
+  { title: "SwipePage-2", description: "This is page 2" }
+];
